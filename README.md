@@ -1,31 +1,36 @@
 # snow-ski
 Мобильное web-приложение горнолыжного курорта для бронирования номеров и выбору инструктора
 
-
-<h1>SKI RESORT<h1>
 <div>
-  <div>
-    <img src="./server/src/screenshots/main.png" height="400" width="auto"/>
-    <img src="./server/src/screenshots/ski-pass.png" height="400" width="auto"/>
-    <img src="./server/src/screenshots/rooms.png" height="400" width="auto"/>
-    <img src="./server/src/screenshots/selected-room.png" height="400" width="auto"/>
-    <img src="./server/src/screenshots/orders.png" height="400" width="auto"/>
-    <img src="./server/src/screenshots/selected-trainer.png" height="400" width="auto"/>
-    <img src="./server/src/screenshots/schedule.png" height="400" width="auto"/>
-    <img src="./server/src/screenshots/edit-schedule.png" height="400" width="auto"/>
-    <img src="./server/src/screenshots/edit-profile.png" height="400" width="auto"/>
-    <img src="./server/src/screenshots/orders-table.png" height="400" width="auto"/>
-  </div>
+<img src="./server/src/screenshots/main.png" height="400" width="auto"/>
 <h3>Описание</h3>
 <p align="justify">
-  Мобильное web-приложение дает возможность пользователю оплатить ski-pass, отслеживать свободные номера и коттеджи по выбранным датам, бронировать их, а также подбирать свободного инструктора по горным лыжам или сноуборду в выбранное время и бронировать их. Помимо обычного пользователя реализовано 2 дополнительных роли: инструктор и администратор. С помощью приложения инструктор может отслеживать рабочий график и менять его. Для администратора доступна возможность отслеживать график занятости коттеджей и номеров, просматривать информацию о пользователях, бронировать номера и коттеджи для других пользователей, редактировать информацию о них.
-  Для запуска проекта необходим PostgreSQL. Действия:
-  <ul>
-    <li>открыть 2 терминала в директориях server и client;</li>
-    <li>установить необходимые зависимости с помощью команды npm i в каждом терминале;</li>
-    <li>создать базу данных и запустить сервер, запустить клиент с помощью команды npm run start в каждом терминале.</li>
-    </ul>
-  </p>
+Мобильное web-приложение дает возможность:
+<ul>
+<li>
+<p align="justify">оплатить ski-pass (пользователь);</p>
+<img src="./server/src/screenshots/ski-pass.png" height="400" width="auto"/>
+</li>
+<li>
+<p align="justify">отслеживать свободные номера и коттеджи по выбранным датам, бронировать их (пользователь);</p>
+<img src="./server/src/screenshots/rooms.png" height="400" width="auto"/>
+<img src="./server/src/screenshots/selected-room.png" height="400" width="auto"/>
+</li>
+<li>
+<p align="justify">подбирать свободного инструктора по горным лыжам или сноуборду в выбранное время, бронировать их (пользователь);</p>
+<img src="./server/src/screenshots/orders.png" height="400" width="auto"/>
+<img src="./server/src/screenshots/selected-trainer.png" height="400" width="auto"/>
+</li>
+<li>
+<p align="justify">отслеживать рабочий график и менять его (инструктор);</p>
+<img src="./server/src/screenshots/schedule.png" height="400" width="auto"/>
+<img src="./server/src/screenshots/edit-schedule.png" height="400" width="auto"/>
+</li>
+<li>
+<p align="justify">отслеживать график занятости коттеджей и номеров, просматривать информацию о пользователях, бронировать номера и коттеджи для других пользователей, редактировать информацию о них (администратор);</p>
+<img align="center" src="./server/src/screenshots/orders-table.png" height="400" width="auto"/>
+</li>
+</ul>
 <h3>Стек проекта</h3>
 <h5>Backend</h5>
 <img src="./server/src/icons/js.svg" alt="JS logo" title="JS" height="25" style="max-width: 100%;">
