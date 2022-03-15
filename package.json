@@ -1,0 +1,20 @@
+{
+  "name": "snow-ski",
+  "version": "1.0.0",
+  "description": "Мобильное web-приложение горнолыжного курорта для бронирования номеров и выбору инструктора",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nucsemin/snow-ski.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nucsemin/snow-ski/issues"
+  },
+  "homepage": "https://github.com/nucsemin/snow-ski#readme"
+}
